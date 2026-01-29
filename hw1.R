@@ -1,5 +1,5 @@
 # Github repo URL: https://github.com/klam912/homework1_ENVST325
-
+# In class prompts ----
 # Prompt 1
 snow_depths_in <- c(2.5, 3, 5, 4.5)
 snow_depths_cm <- snow_depths_in * 2.54
@@ -27,3 +27,11 @@ fahrenheit_converter(-44)
 fahrenheit_converter(0)
 fahrenheit_converter(20)
 fahrenheit_converter(35)
+
+# Homework ----
+# Q1
+high_peaks_meters <- high_peaks
+high_peaks_meters$`Elevation (ft)` <- high_peaks_meters$`Elevation (ft)` * 0.3048
+
+# Q3
+longest_round_trip_length <- high_peaks[which.max(high_peaks$`Round trip length (mi)`),]
