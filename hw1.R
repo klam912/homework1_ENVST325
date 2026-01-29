@@ -1,3 +1,5 @@
+# Github repo URL: https://github.com/klam912/homework1_ENVST325
+
 # Q1
 snow_depths_in <- c(2.5, 3, 5, 4.5)
 snow_depths_cm <- snow_depths_in * 2.54
